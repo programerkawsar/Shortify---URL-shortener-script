@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[26],{776:function(e,n,t){"use strict";t.r(n);var r={name:"DashboardIndex",validate:function(e){(0,e.redirect)("/dashboard/user")}},c=t(45),component=Object(c.a)(r,(function(){var e=this.$createElement;return(this._self._c||e)("Nuxt")}),[],!1,null,null,null);n.default=component.exports}}]);
