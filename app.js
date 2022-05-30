@@ -37,6 +37,8 @@ app.options(process.env.CORS_ORIGIN, cors())
 
 // Serving static files
 app.use(express.static('public'))
+app.use(`/visit/:id`, express.static('public'))
+app.use(`/reset-password/:id`, express.static('public'))
 
 // Set security HTTP headers
 app.use(helmet())
